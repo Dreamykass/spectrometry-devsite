@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="section">
+    <h1 class="title" style="color: coral">Spectrometry</h1>
+</section>
+<div class="container">
+    <div class="columns m-2">
+        <!-- ------------------------------------------------------- first column -->
+        <div class="column has-background-black-ter has-text-light">
+            <section class="section">
+                {% set section = get_section(path="project/_index.md") %}
+                <h1 class="title has-text-light">
+                    {{ section.title }}
+                </h1>
+
+                <p>
+                    {% set page = get_page(path="short-description.md") %}
+                    {{ page.content | safe }}
+                </p>
+
+                <section class="section content">
+                    <a href="{{ section.permalink | safe }}">
+                        All pages.
+                    </a>
+                    <ul>
+                        {% for page in section.pages %}
+                        <li>
+                            <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </section>
+            </section>
+        </div>
+        <!-- ------------------------------------------------------- second column -->
+        <div class="column has-background-black-ter has-text-light">
+            <section class="section">
+                {% set section = get_section(path="blog/_index.md") %}
+                <h1 class="title has-text-light">
+                    {{ section.title }}
+                </h1>
+
+                <p>
+                    {% set page = get_page(path="blog-description.md") %}
+                    {{ page.content | safe }}
+                </p>
+
+                <section class="section content">
+                    <a href="{{ section.permalink | safe }}">
+                        All blog posts.
+                    </a>
+                    <ul>
+                        {% for page in section.pages %}
+                        <li>
+                            <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </section>
+            </section>
+        </div>
+        <!-- ------------------------------------------------------- ... -->
+    </div>
+</div>
+{% endblock content %}
