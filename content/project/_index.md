@@ -1,8 +1,8 @@
 +++
 title = "Project Overview"
 sort_by = "weight"
-template = "blog.html"
-page_template = "blog-page.html"
+template = "project.html"
+page_template = "project-page.html"
 +++
 
 Huh

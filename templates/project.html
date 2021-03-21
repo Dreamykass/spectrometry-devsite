@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="section content">
+    <h1 class="title has-text-light">
+        {{ section.title }}
+    </h1>
+    <p>
+        {{ section.content | safe }}
+    </p>
+</section>
+
+<section class="section content">
+    {% for page in section.pages %}
+    <hr style="border: 1px dashed gray; background-color: transparent;">
+    <section class="section content">
+        <h1 class="has-text-grey-lighter">{{ page.title }}</h1>
+        <a href="{{ page.permalink | safe }}" class="has-text-grey-dark">(direct link)</a>
+        {{ page.content | safe }}
+    </section>
+    {% endfor %}
+</section>
+{% endblock content %}

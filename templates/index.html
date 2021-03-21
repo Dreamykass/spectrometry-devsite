@@ -20,9 +20,8 @@
                 </p>
 
                 <section class="section content">
-                    <a href="{{ section.permalink | safe }}">
-                        All pages.
-                    </a>
+                    <a href="{{ section.permalink | safe }}">All pages. </a>
+                    Direct Links:
                     <ul>
                         {% for page in section.pages %}
                         <li>
@@ -47,9 +46,8 @@
                 </p>
 
                 <section class="section content">
-                    <a href="{{ section.permalink | safe }}">
-                        All blog posts.
-                    </a>
+                    <a href="{{ section.permalink | safe }}">All blog posts. </a>
+                    Recent posts:
                     <ul>
                         {% for page in section.pages %}
                         <li>

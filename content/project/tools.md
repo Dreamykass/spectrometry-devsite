@@ -1,17 +1,18 @@
 +++
 title = "Tools and libraries used"
 date = 2021-03-21
-weight = 300
+weight = 500
 +++
 
-# Languages
+### Languages
 - main/native - Rust - <https://www.rust-lang.org/>  
   Star of the show.
   [Why Rust?](../../blog/why-rust)
 - scripting - Rhai - <https://github.com/rhaiscript/rhai>  
   Why Rhai?
 
-# Environment
+### Environment
+- version control - GitHub - (private repo)
 - main IDE - JetBrains CLion - <https://www.jetbrains.com/clion/>  
   Rust.
 - secondary IDE - Visual Studio Code - <https://code.visualstudio.com/>  
@@ -20,18 +21,22 @@ weight = 300
   It's cool.
 - static analysis / language server - rust-analyzer - <https://github.com/rust-analyzer/rust-analyzer>
 
-# Rust libraries
+### Rust libraries
 (main ones that I directly depend on)
 - graphics - wgpu - <https://github.com/gfx-rs/wgpu-rs>  
   Why wgpu?
 - windowing - winit - <>
 - gui - iced?
 - gui - imgui
-- text - glyph
+- text - wgpu_glyph
 
 - physics - rapier
 
 - networking - laminar
+
+- log - logging facede
+- fern - logger
+
   
 That's about it.
 
