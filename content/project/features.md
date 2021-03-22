@@ -4,7 +4,7 @@ date = 2021-03-21
 weight = 100
 +++
 
-### Priorities:
+### Priorities
 - Top-down 2D graphics, with line-of-sight mechanics, as well as lights and shadows.
   Flashlights, flares, or NVGs needed in the dark.
 - Procedurally generated world. Static diamond-shaped layout of sections of the world, semi-random 
@@ -22,10 +22,10 @@ weight = 100
 
 
 
-### Would be nice:
+### Would be nice
 - Alternative sensory systems. Radar, sonar, infrared, spectrometer gun (!),
   biomass detector, wifi scanner.
-- Alternative output systems, to the sensory systems. Phosphor screens with long 
+- Alternative output systems. Can't connect your eyes to the radar dish. Phosphor screens with long 
   afterimage, slowly-updating electron gun screens, cheap greyscale ink, single-color
   pixel LCD, analog radar/sonar display.
 - Parts-based health and armor system. Unprotected limbs are harder.
