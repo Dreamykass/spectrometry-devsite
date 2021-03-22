@@ -4,7 +4,7 @@ date = 2021-03-21
 weight = 300
 +++
 
-### Basics / Priorities
+## Basics / Priorities
 - [ ] general project structure
   - [ ] server and client binaries
   - [ ] reactive threading
@@ -20,34 +20,43 @@ weight = 300
   - [ ] collision with walls
   - [ ] soft-collision with furniture
   - [ ] throwables
-- [ ] graphics / lights
-  - [ ] static
-  - [ ] dynamic
-  - [ ] light/shadow level check
+- [ ] graphics
+  - [ ] static lights
+  - [ ] dynamic lights
+  - [ ] light/shadow/visibility check
 - [ ] sound
-  - [ ] ...
-- [ ] ...
+  - [ ] ?
+- [ ] scripting (?)
+- [ ] **first actual gameplay - ARENA**
+  - [ ] statically loaded levels from Tiled
+  - [ ] guns
+  - [ ] 1v1 over the network
 - [ ] ...
 
-### Down the line
+## Down the line
 - [ ] **rough feature parity to Teleglitch**  
       sight, lights, physics
 - [ ] world generation
   - [ ] ...
-  - [ ] navmesh generation
-- [ ] enemies
+  - [ ] navmesh calculation
+- [ ] NPC
   - [ ] dumb swarmer
   - [ ] melee
   - [ ] gunner
   - [ ] ...
 - [ ] interaction with the world
-  - [ ] light and door switches
+  - [ ] doors
+  - [ ] light and switches
   - [ ] throwable boxes
   - [ ] ...
 - [ ] ...
 
-### Far future
-- [ ] ...
+## Far future
+- [ ] world generation
+  - [ ] sections
+  - [ ] section layout
+  - [ ] rooms
+  - [ ] hallways
 - [ ] 0G movement
   - [ ] fire extinguishers
 - [ ] ...

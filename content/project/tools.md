@@ -29,11 +29,8 @@ weight = 500
 - gui - iced?
 - gui - imgui
 - text - wgpu_glyph
-
 - physics - rapier
-
 - networking - laminar
-
 - log - logging facede
 - fern - logger
 
