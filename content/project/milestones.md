@@ -6,7 +6,8 @@ weight = 300
 
 ## Basics / Priorities
 - [ ] general project structure
-  - [ ] server and client binaries
+  - [x] server and client binaries
+  - [x] client state machine
   - [ ] reactive threading
 - [ ] graphics
   - [ ] text, gui, quads, textures
