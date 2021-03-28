@@ -8,11 +8,15 @@ weight = 300
 - [ ] general project structure
   - [x] server and client binaries
   - [x] client state machine
+  - [x] loading the config from arguments
   - [ ] reactive threading
 - [ ] graphics
-  - [ ] text, gui, quads, textures
-  - [ ] picture-in-picture
-  - [ ] line of sight
+  - [ ] text
+  - [ ] debug/dev gui (imgui)
+  - [x] post-processing shader effects
+  - [x] on the fly shader reloading
+  - [ ] rendering the world to a square view
+  - [x] world coords to screen coords transform
 - [ ] networking
   - [ ] local system
   - [ ] LAN
@@ -22,6 +26,7 @@ weight = 300
   - [ ] soft-collision with furniture
   - [ ] throwables
 - [ ] graphics
+  - [ ] line of sight
   - [ ] static lights
   - [ ] dynamic lights
   - [ ] light/shadow/visibility check

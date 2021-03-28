@@ -31,8 +31,8 @@ weight = 500
 - text - wgpu_glyph
 - physics - rapier
 - networking - laminar
-- log - logging facede
-- fern - logger
+- logging facade - log
+- logger - fern
 
   
 That's about it.
