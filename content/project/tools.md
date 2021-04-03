@@ -5,36 +5,32 @@ weight = 500
 +++
 
 ## Languages
-- main/native - Rust - <https://www.rust-lang.org/>  
-  Star of the show.
-  [Why Rust?](../../blog/why-rust)
-- scripting - Rhai - <https://github.com/rhaiscript/rhai>  
-  Why Rhai?
+- rust - main/native
+- rhai - scripting language
 
 ## Environment
-- version control - GitHub - (private repo)
-- main IDE - JetBrains CLion - <https://www.jetbrains.com/clion/>  
-  Rust.
-- secondary IDE - Visual Studio Code - <https://code.visualstudio.com/>  
-  Opens quickly, lots of extensions.
-- profiling - Visual Studio - <https://visualstudio.microsoft.com/vs/community/>  
-  It's cool.
-- static analysis / language server - rust-analyzer - <https://github.com/rust-analyzer/rust-analyzer>
+- github - version control
+- jetbrains clion - main IDE
+- visual studio code - secondary IDE
+- visual studio - cpu/memory profiling
+- optick - cpu profiling (?)
+- renderdoc - gpu profiling
+- rust-analyzer - static analysis / language server
+- tiled - level/scene editor
 
 ## Rust libraries
-(main ones that I directly depend on)  
+(that I directly depend on)  
 
 #### Graphics, windowing, gui:
-- `winit` - windowing, input
-- `wgpu` - graphics
-  Why wgpu?
-- `wgpu_glyph` - text
-- `iced` - gui (?)
-- `imgui` - gui
-- `imgui-wgpu` - imgui integration
-- `imgui-winit-support` - imgui integration
-- `image` - image processing
-- `shaderc` - shader compilation
+- winit - windowing, input
+- wgpu - graphics
+- wgpu_glyph - text
+- iced - gui (?)
+- imgui - dev/debug gui
+- imgui-wgpu - imgui integration
+- imgui-winit-support - imgui integration
+- image - image processing
+- shaderc - shader compilation
 
 #### Architecture:
 - rapier - physics
@@ -43,16 +39,23 @@ weight = 500
 - cgmath - math
 
 #### Data:
-- bytemuck - 
-- serde - 
-- serde... - 
-- bincode - 
+- hecs - entity component system
+- serde - serialization interface
+- ron - serialization format
+- bincode - serialization format
+- toml - configuration format
+- bytemuck - data/bytes manipulation
+
+#### Instrumentation:
+- log - logging facade
+- fern - logger framework
+- profiling - profiling abstraction
+- puffin - integrated profiler
+- puffin-imgui - profiler imgui integration
 
 #### Other:
-- logging facade - log
-- logger - fern
-- structopt - 
-- rand - 
+- structopt - argument parsing
+- rand - randomness
 - chrono - time
   
 That's about it.
