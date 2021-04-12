@@ -41,20 +41,20 @@ weight = 500
 #### Data:
 - hecs - entity component system
 - serde - serialization interface
-- ron - serialization format
-- bincode - serialization format
-- toml - configuration format
+- ron - serialization format (human-readable)
+- bincode - serialization format (binary)
 - bytemuck - data/bytes manipulation
 
-#### Instrumentation:
+#### Instrumentation, configuration:
 - log - logging facade
 - fern - logger framework
 - profiling - profiling abstraction
 - puffin - integrated profiler
 - puffin-imgui - profiler imgui integration
+- structopt - argument parsing
+- toml - configuration format/parsing
 
 #### Other:
-- structopt - argument parsing
 - rand - randomness
 - chrono - time
   
