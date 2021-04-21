@@ -31,6 +31,7 @@ weight = 500
 - imgui-winit-support - imgui integration
 - image - image processing
 - shaderc - shader compilation
+- palette - color manipulation
 
 #### Architecture:
 - rapier - physics
