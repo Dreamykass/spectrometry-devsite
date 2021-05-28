@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dreamykass.github.io/spectrometry-devsite/sitemap.xml

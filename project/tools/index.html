@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spectrometry</title>
+    <!-- <link rel="stylesheet" href="./overrides.css"> -->
+    <link rel="stylesheet" href="https:&#x2F;&#x2F;dreamykass.github.io&#x2F;spectrometry-devsite&#x2F;.&#x2F;overrides.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"> -->
+    <link rel="icon" type="image/jpeg" href="https:&#x2F;&#x2F;dreamykass.github.io&#x2F;spectrometry-devsite&#x2F;.&#x2F;rusty-upscaled.jpeg" />
+</head>
+
+<body>
+    <nav class="navbar is-fixed-top has-background-grey-darker" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <img src="https:&#x2F;&#x2F;dreamykass.github.io&#x2F;spectrometry-devsite&#x2F;.&#x2F;rusty-upscaled.jpeg">
+                &nbsp;&nbsp;
+                <p style="color:coral"> Dreamykass x Spectrometry</p>
+            </a>
+            <a class="navbar-item has-text-white" href="https:&#x2F;&#x2F;dreamykass.github.io&#x2F;spectrometry-devsite&#x2F;.">
+                Home
+            </a>
+            <a class="navbar-item has-text-white" href="https:&#x2F;&#x2F;dreamykass.github.io&#x2F;spectrometry-devsite&#x2F;project&#x2F;">
+                Project
+            </a>
+            <a class="navbar-item has-text-white" href="https:&#x2F;&#x2F;dreamykass.github.io&#x2F;spectrometry-devsite&#x2F;blog&#x2F;">
+                Blog
+            </a>
+        </div>
+    </nav>
+
+    <section class="section has-background-black-bis has-text-grey-light">
+        <div class="container">
+            
+<section class="section">
+    <h1 class="title has-text-grey-light">
+        Tools and libraries used
+    </h1>
+    <p class="subtitle"><strong>2021-03-21</strong></p>
+    <div class="content">
+        <h2 id="languages">Languages</h2>
+<ul>
+<li>rust - main/native</li>
+<li>rhai - scripting language</li>
+</ul>
+<h2 id="environment">Environment</h2>
+<ul>
+<li>github - version control</li>
+<li>jetbrains clion - main IDE</li>
+<li>visual studio code - secondary IDE</li>
+<li>visual studio - cpu/memory profiling</li>
+<li>optick - cpu profiling (?)</li>
+<li>renderdoc - gpu profiling</li>
+<li>rust-analyzer - static analysis / language server</li>
+<li>tiled - level/scene editor</li>
+</ul>
+<h2 id="rust-libraries">Rust libraries</h2>
+<p>(that I directly depend on)</p>
+<h4 id="graphics-windowing-gui">Graphics, windowing, gui:</h4>
+<ul>
+<li>winit - windowing, input</li>
+<li>wgpu - graphics</li>
+<li>wgpu_glyph - text</li>
+<li>iced - gui (?)</li>
+<li>imgui - dev/debug gui</li>
+<li>imgui-wgpu - imgui integration</li>
+<li>imgui-winit-support - imgui integration</li>
+<li>image - image processing</li>
+<li>shaderc - shader compilation</li>
+<li>palette - color manipulation</li>
+</ul>
+<h4 id="architecture">Architecture:</h4>
+<ul>
+<li>rapier - physics</li>
+<li>laminar/quinn - networking (?)</li>
+<li>crossbeam - channels</li>
+<li>cgmath - math</li>
+</ul>
+<h4 id="data">Data:</h4>
+<ul>
+<li>hecs - entity component system</li>
+<li>serde - serialization interface</li>
+<li>ron - serialization format (human-readable)</li>
+<li>bincode - serialization format (binary)</li>
+<li>bytemuck - data/bytes manipulation</li>
+</ul>
+<h4 id="instrumentation-configuration">Instrumentation, configuration:</h4>
+<ul>
+<li>log - logging facade</li>
+<li>fern - logger framework</li>
+<li>profiling - profiling abstraction</li>
+<li>puffin - integrated profiler</li>
+<li>puffin-imgui - profiler imgui integration</li>
+<li>structopt - argument parsing</li>
+<li>toml - configuration format/parsing</li>
+</ul>
+<h4 id="other">Other:</h4>
+<ul>
+<li>rand - randomness</li>
+<li>chrono - time</li>
+</ul>
+<p>That's about it.</p>
+
+    </div>
+</section>
+
+        </div>
+    </section>
+
+    <footer class="footer has-background-grey-darker has-text-grey-light">
+        <div class="content has-text-centered">
+            <p>
+                <strong class="has-text-grey-light">Spectrometry devsite made by <a
+                        href="https://github.com/Dreamykass">Dreamykass</a></strong><br>
+                Site was made using <a href="https://www.getzola.org/">Zola</a>, <a href="https://bulma.io/">Bulma</a>,
+                and <a href="https://code.visualstudio.com/">VS Code</a><br>
+                Deployed on <a href="https://pages.github.com/">GitHub Pages</a>, on this page <a
+                    href="https://dreamykass.github.io/spectrometry-devsite">here</a><br>
+                Source on <a href="https://github.com/Dreamykass/spectrometry-devsite">github</a><br>
+                Source code licensed <a href="https://opensource.org/licenses/mit-license.php">MIT</a><br>
+                Content licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA
+                    4.0</a><br>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
